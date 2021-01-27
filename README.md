@@ -23,13 +23,9 @@ estabelecer uma área de transição para o processo de ETL;
 
 ARQUIVOS:
 - Back-end (informações necessárias para acessar o banco de dados, pasta com os
-scripts/arquivos do kettle utilizados no ETL, modelagem dimensional, requisitos,
-documentação sobre criação dos indicadores/medidas e tudo que possa ser
-necessário para para o back-end);
+scripts/arquivos do kettle utilizados no ETL, modelagem dimensional);
 - Front-end (informações necessárias para acessar a área de apresentação dos
-dados, link acesso a ferramenta, usuário, senha, documento de especificação e tudo
-que possa ser necessário para o front-end);
-- Fonte de dados (Banco de dados em MySQL (dump) do Vestibular da UFSC de 2008 a 2012, Divisoes de administrativas de Santa Catarina de novembro 2012);
+dados);
 
 
 MODELAGEM:
