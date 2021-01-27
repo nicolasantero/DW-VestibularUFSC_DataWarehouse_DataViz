@@ -33,6 +33,6 @@ que possa ser necessário para o front-end);
 
 
 MODELAGEM:
-![Modelo Dimensional](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/modelo_DW?raw=true)
-![Modelo Relacional](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/modelo_relacional?raw=true)
+![Modelo Dimensional](https://raw.githubusercontent.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/main/Modelos/modelo_DW.JPG?raw=true)
+![Modelo Relacional](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/modelo_relacional.png?raw=true)
 
