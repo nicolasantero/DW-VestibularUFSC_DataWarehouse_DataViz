@@ -1,5 +1,8 @@
 # DW-VestibularUFSC_DataWarehouse_DataViz
 
+Data Visualization
+[Dashboard PowerBI](https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection)
+
 PROJETO
 1. Analisar o modelo do sócio acadêmico do vestibular da Coperve de
 2008 a 2012 com vistas à implementação de um Data Mart para
@@ -17,7 +20,6 @@ estabelecer uma área de transição para o processo de ETL;
 
 4. Criar o Front End do Data Mart em uma ferramenta OLAP
 
-[Dashboard PowerBI](https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection)
 
 ARQUIVOS:
 - Back-end (informações necessárias para acessar o banco de dados, pasta com os
@@ -30,5 +32,8 @@ que possa ser necessário para o front-end);
 - Fonte de dados (Banco de dados em MySQL (dump) do Vestibular da UFSC de 2008 a 2012, Divisoes de administrativas de Santa Catarina de novembro 2012);
 
 
+MODELAGEM:
+![Modelo Dimensional](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/Modelagem%20DW.pdf?raw=true)
+![Modelo Relacional](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/Modelo_Relacional.pdf?raw=true)
 
 
