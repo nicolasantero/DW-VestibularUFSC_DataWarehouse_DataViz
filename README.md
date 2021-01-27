@@ -17,6 +17,8 @@ estabelecer uma área de transição para o processo de ETL;
 
 4. Criar o Front End do Data Mart em uma ferramenta OLAP
 
+(Dashboard PowerBI)(https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection)
+
 ARQUIVOS:
 - Back-end (informações necessárias para acessar o banco de dados, pasta com os
 scripts/arquivos do kettle utilizados no ETL, modelagem dimensional, requisitos,
