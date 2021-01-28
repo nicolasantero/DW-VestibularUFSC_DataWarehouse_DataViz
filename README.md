@@ -1,7 +1,15 @@
-# DW-VestibularUFSC_DataWarehouse_DataViz
+# DataWarehouse_DataViz-VestibularUFSC
 
 Data Visualization
 - [Dashboard PowerBI](https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection)
+
+SOFTWARES
+- UniController
+- HeidiSQL
+- Pentaho Data Integration
+- SQL Power Architect
+- Power BI
+
 
 PROJETO
 1. Analisar o modelo do sócio acadêmico do vestibular da Coperve de
