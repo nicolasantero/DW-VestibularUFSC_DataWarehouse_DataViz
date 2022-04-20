@@ -1,7 +1,7 @@
 # DataWarehouse_DataViz-VestibularUFSC
 
 Data Visualization
-- [Dashboard PowerBI](https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection)
+- [Link Dashboard PowerBI](https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection)
 
 SOFTWARES
 - UniController
@@ -41,7 +41,4 @@ MODELAGEM:
 ![Modelo Relacional](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/modelagem_relacional.png?raw=true)
 - Modelagem Dimensional do DataWarehouse
 ![Modelo Dimensional](https://raw.githubusercontent.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/main/Modelos/modelagem_DW.JPG?raw=true)
-
-DASHBOARD:
-https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection
 
