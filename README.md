@@ -1,4 +1,4 @@
-# DataWarehouse_DataViz-VestibularUFSC
+# DataWarehouse_DataViz-Entrance Exam UFSC
 
 ## Data Visualization
 - [Link Dashboard PowerBI](https://app.powerbi.com/view?r=eyJrIjoiMWE5MzI0MmQtYWVjNC00N2JhLTlmMDEtMWZjZjllNDU0Yzc3IiwidCI6ImZhNzk1MzFjLThjZTUtNGJkMy05N2VlLTI0NWU2ZWUyNjZiOCJ9&pageName=ReportSection)
@@ -11,50 +11,45 @@
 - Power BI
 
 
-## PROJETO
-1. Analisar o modelo do sócio acadêmico do vestibular da Coperve de
-2008 a 2012 com vistas à implementação de um Data Mart para
-suporte a seguinte análise;
+## PROJECT
+1. Analyze the socio-academic model of the Coperve entrance exams from 2008 to 2012 in order to implement a Data Mart to support the following analysis;
 
-	- Apoiar a secretaria do estado de SC na avaliação do desempenho nas disciplinas dos
-	  candidatos das escolas públicas do estado, comparando com as escolas privadas e
-	  federais.
+	- To support the decision making of the Secretary of State of SC and to evaluate the performance in the subjects of the candidates from the state public schools, comparing them to the private and federal schools.
 
-2. Criar um esquema estrela (modelo dimensional) para suportar as
-análises;
+2. Create a star schema (dimensional model) to support the analyses analyses;
 
-3. Definir o projeto físico para o Data Mart, seguindo padronização,
-estabelecer uma área de transição para o processo de ETL;
+3. Define the physical design for the Data Mart, following standardization, establish a transition area for the ETL process;
 
-4. Criar o Front End do Data Mart em uma ferramenta OLAP
+4. Creating the Data Mart Front End in an OLAP Tool.
 
 
-## ARQUIVOS:
-- Back-end (informações necessárias para acessar o banco de dados, pasta com os
-scripts/arquivos do kettle utilizados no ETL, modelagem dimensional);
-- Front-end (informações necessárias para acessar a área de apresentação dos
-dados);
+## FOLDERS
+- Back-end (information needed to access the database, folder with the
+scripts/kettle files used in ETL, dimensional modeling);
+- Front-end (information needed to access the data visualization);
 
-## Instruções
+## INSTRUCTIONS
 
-- Criar uma conexão MySQL local , no meu caso foi usado o UniController para criar a conexão.
+- Create a local MySQL connection , in this project UniController was used to create the connection;
 
-- Usando um gerenciador de bases de dados MySQL (HeidiSQL)  e conectar na conexão MySQL.
+- Using a MySQL database manager (HeidiSQL) and connect to the MySQL connection;
 
-- Abrir o dump dos dados do vestibular no gerenciador de bases de dados.
+- Open the vestibular data dump in the database manager;
 
-- Usar o Script_Criacao_DW para criar criar a tabela de Fato e Dimensões do DataWarehouse, mas ainda sem nenhum dado.
+- Use the file Script_Create_DW to create the DataWarehouse Fact and Dimensions table, but still without any data;
 
-- Com a modelagem criada no HeidiSQL foi usado o Spoon (Pentaho Data Integration) para a execução das etapas de ETL, conectar na mesma conexão SQL do DataWarehouse e da fonte de dados do vestibular.
+- With the modeling created in HeidiSQL, Spoon (Pentaho Data Integration) was used to perform the ETL steps, connecting to the same SQL connection of the DataWarehouse and the vestibular data source;
 
-- No Spoon é usado a conexão em sql para puxar os dados do vestibular, executar as transformações e depois fazer a carga nas respectivas dimensões e fato do banco de dados do DataWarehouse.
+- In Spoon, the sql connection is used to pull the acceptance exam data, perform the transformations and then load in the respective dimensions and facts from the DataWarehouse database;
 
-- O arquivo dw_ufsc_com_dados.sql contém o DataWarehouse populado com os dados após a Etapa de Carga
+- The file dw_ufsc_with_data.sql contains the DataWarehouse populated with the data after the Load Step;
+
+Translated with www.DeepL.com/Translator (free version)
 
 
-## MODELAGEM:
-- Modelagem Relacional do banco de dados da fonte
-![Modelo Relacional](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/modelagem_relacional.png?raw=true)
-- Modelagem Dimensional do DataWarehouse
+## MODELING
+- Relational Modeling of the source database
+![Relational Model](https://github.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/blob/main/Modelos/modelagem_relacional.png?raw=true)
+- Dimensional Modeling of the DataWarehouse
 ![Modelo Dimensional](https://raw.githubusercontent.com/nicolasantero/DW-VestibularUFSC_DataWarehouse_DataViz/main/Modelos/modelagem_DW.JPG?raw=true)
 
