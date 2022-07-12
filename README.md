@@ -44,8 +44,6 @@ scripts/kettle files used in ETL, dimensional modeling);
 
 - The file dw_ufsc_with_data.sql contains the DataWarehouse populated with the data after the Load Step;
 
-Translated with www.DeepL.com/Translator (free version)
-
 
 ## MODELING
 - Relational Modeling of the source database
